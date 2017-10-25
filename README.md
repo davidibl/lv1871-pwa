@@ -16,8 +16,10 @@ In diesem Repository findet ihr auch dieses Readme.
 # Schritt 2 - CLI installieren und Angular Projekt erzeugen
 
 - CLI installieren: *npm install -g @angular/cli*
+- In der Umgebungsvariablen Path eures Kontos folgenden Eintrag hinzufügen: 'C:\Users\%USERNAME%\AppDate\Roaming\npm'
 - In den Ordner des Projektes wechseln (lv1871-pwa)
-- Neues Angular 4 Projekt initialisieren: *ng new lv1871-pwa --directory ./*
-- Nun kann die Web App betrachtet werden *ng serve --port xxxx* (Port mit Glück einen freien wählen)
+- Nun kann die Web App gestartet werden *ng serve --port xxxx* (Port mit Glück einen freien wählen)
+- Und zuletzt könnt ihr die Web App betrachten: *localhost:port*
 
+-> Schritt 2 geschafft
 
