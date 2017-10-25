@@ -38,3 +38,23 @@ Das war je nachdem was man gefunden hat im Netz trivial oder schwierig. So oder 
 
 Die ServiceWorker schaffen Offline Fähigkeit und machen unsere App schnell durch Caching.
 Sucht nach einer Möglichkeit Service Worker in unserer Angular CLI App zu akivieren und Offline Fähigkeit für alle seiten herzustellen.
+
+Genau. Einfach den Service Worker installieren und registrieren.
+Zum einen installieren:
+*npm i @angular/service-worker -S*
+
+Zum anderen in der .angular-cli.json registrieren:
+*"serviceWorker":true*
+
+Danach noch ein Prod build:
+*ng build --prod*
+
+Und fertig ist ein (unkonfigurierter Service Worker)
+
+Mit Hilfe der Datei ngsw-manifest.json kann dieser dann so konfiguriert werden, dass alle Routes gecached werden. Wenn wir unsere App nun mit *ng serve --prod* starten sehen wir in den Chrome Dev Tools dass der Service Worker registriert wird.
+
+Man kann nun in den Chrome Dev Tools unter Network den Offline Modus aktivieren und die App wird dennoch geladen :)
+
+#Schritt 5 - Die App Shell
+
+Sucht im Internet nach dem Begriff AppShell uim PWA Kontext. Was ist das? Und wie wirds gemacht?

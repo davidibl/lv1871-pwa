@@ -1,0 +1,26 @@
+{
+    "external": {
+        "urls": [
+        ]
+    },
+    "routing": {
+        "index": "/index.html",
+        "routes": {
+            "/": {
+                "match": "exact"
+            },
+            "/start": {
+                "match": "exact"
+            },
+            "/vertraege": {
+                "match": "exact"
+            },
+            "/persoenlich": {
+                "match": "exact"
+            },
+            "/notfound": {
+                "match": "exact"
+            }
+        }
+    }
+}
