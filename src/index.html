@@ -10,6 +10,64 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <lv-app-root class="container-xl"></lv-app-root>
+  <lv-app-root class="container-xl">
+
+    <style>
+      .container-xl {
+        box-sizing:border-box;
+        color:rgb(0, 0, 0);
+        display:block;
+        font-family:"Roboto Condensed", sans-serif;
+        font-size:16px;
+        font-weight:normal;
+        height:181px;
+        line-height:22px;
+        text-size-adjust: 100%;
+      }
+      .header {
+        background-color:rgb(0, 117, 83);
+        box-sizing:border-box;
+        color:rgb(255, 255, 255);
+        display:block;
+        font-family:"Roboto Condensed", sans-serif;
+        font-size:16px;
+        font-weight:normal;
+        height:50.5px;
+        line-height:22px;
+        margin-left:0px;
+        margin-right:0px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+        padding-top:5px;
+        position:fixed;
+        text-size-adjust:100%;
+        width: 100%;
+      }
+      .logo {
+        height: 35px;
+      }
+
+      @media (min-width: 1140px) {
+        .header {
+          width:1120px;
+        }
+        .container-xl {
+          width: 1120px;
+
+          margin-left:190px;
+          margin-right:190px;
+
+        padding-left:15px;
+        padding-right: 15px;
+        }
+      }
+    </style>
+
+    <div class="header">
+        <img class="logo" src="/assets/lv1871.png" alt="logo" />Maßstäbe in Vorsorge
+    </div>
+
+  </lv-app-root>
 </body>
 </html>

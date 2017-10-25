@@ -58,3 +58,10 @@ Man kann nun in den Chrome Dev Tools unter Network den Offline Modus aktivieren 
 #Schritt 5 - Die App Shell
 
 Sucht im Internet nach dem Begriff AppShell uim PWA Kontext. Was ist das? Und wie wirds gemacht?
+
+
+Die AppShell soll ein Teil der Website sein, der schon vor dem Bootstrapping dargestellt wird.
+Hierfür implementieren wir Teile des Layouts und des CSS Codes direkt in unserer inde.html.
+Der Aufmerksame Betrachter wird bemerken dass der Start der App nun auf einmal zumindest deutlich schneller aussieht.
+
+Natürlich lässt sich die Geschwindigkeit von Remoteservices oder ähnlichem nicht drastisch erhöhen. Aber die Wahrnehmung des Nutzers lässt sich beeinflussen.
