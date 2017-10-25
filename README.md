@@ -27,3 +27,8 @@ In diesem Repository findet ihr auch dieses Readme.
 
 Der erste Schritt zur Erzeugung einer PWA ist es ein manifest.json hinzuzufügen.
 Sucht im Internet ein Beispiel und sorgt dafür dass Chrome in den Dev-Tools unter *Appplication -> Manifest* unsere Webapp als PWA registriert.
+
+# Schritt 4 - Der ServiceWorker als Herzstück
+
+Die ServiceWorker schaffen Offline Fähigkeit und machen unsere App schnell durch Caching.
+Sucht nach einer Möglichkeit Service Worker in unserer Angular CLI App zu ativieren und Offline Fähigkeit für alle seiten herzustellen.
