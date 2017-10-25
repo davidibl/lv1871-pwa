@@ -23,3 +23,7 @@ In diesem Repository findet ihr auch dieses Readme.
 
 -> Schritt 2 geschafft
 
+# Schritt 3 - Eine PWA erzeugen
+
+Der erste Schritt zur Erzeugung einer PWA ist es ein manifest.json hinzuzufügen.
+Sucht im Internet ein Beispiel und sorgt dafür dass Chrome in den Dev-Tools unter *Appplication -> Manifest* unsere Webapp als PWA registriert.
