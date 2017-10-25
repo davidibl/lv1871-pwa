@@ -9,6 +9,7 @@ import { ALL_COMPONENTS } from './components/componens';
 import { routing } from './app.routes';
 import { DataService } from './services/dataService';
 import { InitService } from './services/initService';
+import { OfflineService } from './services/offlineService';
 
 export function startupServiceFactory(startupService: InitService): Function {
   return () => startupService.load();
@@ -25,6 +26,7 @@ export function startupServiceFactory(startupService: InitService): Function {
   providers: [
     DataService,
     InitService,
+    OfflineService,
     {
       // Provider for APP_INITIALIZER
       provide: APP_INITIALIZER,

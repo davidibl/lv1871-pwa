@@ -77,3 +77,6 @@ Vor allem die Angaben im Head unserer Index.html sind wichtig um das Nutzererleb
 Vor allem die Offline Eigenschaften der App müssen wohl durchdacht werden. In vielen Fällen wird man zumindest schreibende Vorgänge im Offline Status verbieten. Findet einen Weg den Button *Jetzt ändern* unter persönliche Daten auszublenden, wenn die App keine Internet Verbindung hat.
 
 Für den Fall dass wir ähnliche Funktionalität an unterschiedlichen Stellen benötigen, sollte die Ermittlung des Ergebnis in einen Service ausgelagert sein.
+
+
+Geht natürlich auch. Und so lässt sich die App Schritt für Schritt weiter trimmen, bis wir ein Ergebnis erzielen das funktional einer nativen Applikation in nichts mehr nachsteht.
