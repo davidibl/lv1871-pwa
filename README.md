@@ -65,3 +65,8 @@ Hierfür implementieren wir Teile des Layouts und des CSS Codes direkt in unsere
 Der Aufmerksame Betrachter wird bemerken dass der Start der App nun auf einmal zumindest deutlich schneller aussieht.
 
 Natürlich lässt sich die Geschwindigkeit von Remoteservices oder ähnlichem nicht drastisch erhöhen. Aber die Wahrnehmung des Nutzers lässt sich beeinflussen.
+
+#Schritt 6 - Optimierungen
+
+Zu guter letzt bleiben uns die Optimierungen die uns die Dev Tools noch zusätzlich vorschlagen.
+Vor allem die Angaben im Head unserer Index.html sind wichtig um das Nutzererlebnis auf Mobilgeräten weiterhin zu verbessern.
