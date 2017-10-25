@@ -8,6 +8,7 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
+        "manifest.json",
         "assets"
       ],
       "index": "index.html",
